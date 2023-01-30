@@ -1,5 +1,13 @@
 # Create a React app with React Router and Tailwind
 
+## Prerequisites
+
+1. (VSCode)[https://code.visualstudio.com] installed.
+1. (Git)[https://git-scm.com/book/en/v2/Getting-Started-Installing-Git] installed.
+1. A (GitHub)[https://github.com] account.
+1. (Node.js and npm)[https://docs.npmjs.com/downloading-and-installing-node-js-and-npm] are installed.
+1. 
+
 ## Setting Up the Project
 
 1. Create a directory with the name of the project you want to create
