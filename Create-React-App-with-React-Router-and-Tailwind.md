@@ -2,10 +2,10 @@
 
 ## Prerequisites
 
-1. [VSCode](https://code.visualstudio.com) installed.
-1. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed.
-1. A [GitHub](https://github.com) account.
-1. [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) are installed.
+1. [VSCode](https://code.visualstudio.com) is installed
+1. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed
+1. [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) are installed
+1. A [GitHub](https://github.com) account
 
 ## Setting Up the Project
 
