@@ -7,7 +7,7 @@
 1. Cleanup before first pushing to GitHub. These steps are not necessary because `create-react-app` obviously creates a working React app, but it's nice to have things cleaned up and personalized for an initial commit.
     1. Run `rm -rf .git` to remove the git info that was created
     1. Delete the test in `/src/App.test.js`
-    1. Delete or replace logo.svg
+    1. Delete or replace `logo.svg`
     1. Delete the CSS in `/src/App.css`
     1. Update the favicon.ico in `/public/`
     1. Update the `<meta>` elements in `/public/index.html`
@@ -38,9 +38,10 @@
 ## Pushing the Project to GitHub
 
 1. Run `git init`
+1. Run `git add .`
 1. Run `git commit -m "Initial commit"`
 1. Run `git branch -M main`
 1. Run `git remote add origin https://github.com/kafkaesc/<YOUR REPO NAME>`
 1. Run `git push -u origin main`
 
-(These are the same instructions GitHub will show you when you create an empty repository.)
+These are the nearly the same instructions GitHub will show you when you create an empty repository, except with the addition of step 2.
