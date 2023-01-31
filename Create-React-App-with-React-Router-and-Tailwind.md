@@ -1,5 +1,7 @@
 # Create a React app with React Router and Tailwind
 
+By Jared Hettinger
+
 ## Prerequisites
 
 1. [VSCode](https://code.visualstudio.com) is installed
