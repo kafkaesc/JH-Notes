@@ -38,7 +38,7 @@ By Jared Hettinger
 1. Create a basic React component for `Error.jsx` in `/src/`
 
         function Error() {
-          return <h1>Error Component</h1>
+          return <h1 className="text-3xl font-bold text-center">Error Component</h1>
         }
 
         export default Error;
@@ -47,7 +47,7 @@ By Jared Hettinger
 1. Create a basic component for `Home.jsx` in `/src/pages/`
 
         function Home() {
-          return <h1>Home Component</h1>
+          return <h1 className="text-3xl font-bold text-center">Home Component</h1>
         }
 
         export default Home;
@@ -55,7 +55,7 @@ By Jared Hettinger
 1. Create a basic component for `About.jsx` in `/src/pages/`
 
         function About() {
-          return <h1>About Component</h1>
+          return <h1 className="text-3xl font-bold text-center">About Component</h1>
         }
 
         export default About;
@@ -81,7 +81,19 @@ By Jared Hettinger
 
 ## Install and Setup Tailwind
 
-WIP
+1. Run `npm install -D tailwindcss` to install Tailwind
+1. Run `npx tailwindcss init` to create the Tailwind config file
+1. In `tailwind.config.js` update `content: []` to be `content: ["./src/**/*.{html,js,jsx}"]`
+1. In `/src/` create the file `input.css` and `output.css` and leave them blank
+1. In `App.css` add
+
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+1. In `App.jsx` add `import './output.css';` to the component
+1. In the terminal run `npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch`
+1. Open a new terminal and run `npm start`
 
 ## Clean-up Before Initial Commit
 
