@@ -77,7 +77,7 @@ By Jared Hettinger
 
         export default App;
 
-1. Run `npm start` and test the paths.
+1. Run `npm start` and test the paths
 
 ## Install and Setup Tailwind
 
