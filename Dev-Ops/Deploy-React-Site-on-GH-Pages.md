@@ -16,8 +16,8 @@
 1. Add `"homepage": "https://{GitHubUsername}.github.io/{ProjectName}/",` under the name and version key-value pairs, where GitHubUsername is your GitHUb username and ProjectName is the name of your project repository.
 1. In the scripts section of the same `package.json` file add the predeploy and deploy scripts:
 
-        "predeploy": "",
-				"deploy": "gh-pages -d build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
 
 1. Open your project repository at [github.com](https://github.com)
 1. Click the tab labeled "Settings"
