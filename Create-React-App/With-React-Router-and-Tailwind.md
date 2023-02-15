@@ -37,28 +37,22 @@ By Jared Hettinger
 
 1. Create a basic React component for `Error.jsx` in `/src/`
 
-        function Error() {
+        export default function Error() {
           return <h1 className="text-3xl font-bold text-center">Error Component</h1>
         }
-
-        export default Error;
 
 1. Create folder `/src/pages/`
 1. Create a basic component for `Home.jsx` in `/src/pages/`
 
-        function Home() {
+        export default function Home() {
           return <h1 className="text-3xl font-bold text-center">Home Component</h1>
         }
 
-        export default Home;
-
 1. Create a basic component for `About.jsx` in `/src/pages/`
 
-        function About() {
+        export default function About() {
           return <h1 className="text-3xl font-bold text-center">About Component</h1>
         }
-
-        export default About;
 
 1. Import the About, Error, and Home components in the `/src/index.js/` file
 
@@ -71,11 +65,9 @@ By Jared Hettinger
         import { Outlet } from "react-router-dom";
         import "./App.css";
 
-        function App() {
+        export default function App() {
           return <Outlet />;
         }
-
-        export default App;
 
 1. Run `npm start` and test the paths
 
