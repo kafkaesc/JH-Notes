@@ -86,6 +86,7 @@ Cleanup before first pushing to GitHub. These steps are not necessary to setup a
 1. Update the favicon.ico in `/public/`
 1. Update the `<meta>` elements in `/public/index.html`
 1. Update the `logo192.png` and `logo512.png` files in `/public/`
+1. Update the `short_name` and `name` values in `manifest.json`
 
 ## Pushing the Project to GitHub
 
