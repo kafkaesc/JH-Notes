@@ -96,5 +96,5 @@ These are the nearly the same instructions GitHub will show you when you create 
 1. Run `git add .`
 1. Run `git commit -m "Initial commit"`
 1. Run `git branch -M main`
-1. Run `git remote add origin https://github.com/kafkaesc/<YOUR REPO NAME>`
+1. Run `git remote add origin https://github.com/<YOUR GITHUB USERNAME>/<YOUR REPO NAME>`
 1. Run `git push -u origin main`
